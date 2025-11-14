@@ -1,4 +1,5 @@
 # Function to check stock levels of grocery items
+
 def check_stock(inventory):
     for item, stock in inventory.items():
         if stock < 10:
